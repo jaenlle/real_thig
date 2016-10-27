@@ -896,3 +896,16 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+## Custom CSS
+--------------------------------------------------------------*/
+
+#topmenu {
+    background-color: #1b3764;
+    border-color: #1b3764;
+}
+
+#topmenu a {
+    color: #fff;
+}
