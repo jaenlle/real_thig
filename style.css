@@ -919,3 +919,8 @@ object {
 #headerlogo {
     padding: 20px 40px;
 }
+
+#site-navigation {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
