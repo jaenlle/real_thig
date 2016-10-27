@@ -23,7 +23,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'real_thig' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class=" container site-header" role="banner">
                 <?php
                     wp_nav_menu( array(
                         'menu'              => 'top-menu',
