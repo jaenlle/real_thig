@@ -149,3 +149,17 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Add additional menus
+ */
+ function register_my_menus() {
+   register_nav_menus(
+     array(
+       'new-menu' => __( 'Top Menu' ),
+       'another-menu' => __( 'Footer Top' ),
+       'an-extra-menu' => __( 'Footer Global' )
+     )
+   );
+ }
+ add_action( 'init', 'register_my_menus' );
