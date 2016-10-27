@@ -908,8 +908,14 @@ object {
 
 #topmenu a {
     color: #fff;
+	font-size: 12px;
+    letter-spacing: 1px;
 }
 
 #topmenu a:hover {
     color: #8cc63f;
+}
+
+#headerlogo {
+    padding: 20px 40px;
 }
