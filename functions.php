@@ -156,9 +156,9 @@ require get_template_directory() . '/inc/jetpack.php';
  function register_my_menus() {
    register_nav_menus(
      array(
-       'new-menu' => __( 'Top Menu' ),
-       'another-menu' => __( 'Footer Top' ),
-       'an-extra-menu' => __( 'Footer Global' )
+       'top-menu' => __( 'Top Menu' ),
+       'footercompany-menu' => __( 'Footer Company' ),
+       'footerquicklinks-menu' => __( 'Footer Quick Links' )
      )
    );
  }
