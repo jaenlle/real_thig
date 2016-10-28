@@ -924,3 +924,9 @@ object {
     background-color: #ffffff;
     border-color: #ffffff;
 }
+
+img#navlogo {
+    height: auto;
+    max-width: 200px;
+    padding: 5px 0 5px 20px;
+}
